@@ -12,10 +12,10 @@
             Console.WriteLine("All ducks can at least float...");
         }
 
-        //public void Fly()
-        //{
-        //    Console.WriteLine("I'm flying...");
-        //}
+        public void Fly()
+        {
+            Console.WriteLine("I'm flying...");
+        }
 
         public abstract void Display();
     }

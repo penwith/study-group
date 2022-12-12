@@ -16,7 +16,7 @@
                 d.Display();
                 d.Quack();
                 d.Swim();
-                //d.Fly();
+                d.Fly();
 
                 Console.WriteLine();
             });
