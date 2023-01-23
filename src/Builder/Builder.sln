@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{E26877AC-FA00-4EA7-A10D-4D757342F4F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vehicles", "Vehicles\Vehicles.csproj", "{3800C47B-C440-4AB8-9C68-B8CCB52C77E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Burgers", "Burgers\Burgers.csproj", "{2AAD7844-E6DD-4F34-930A-43BA4ED14D6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E26877AC-FA00-4EA7-A10D-4D757342F4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26877AC-FA00-4EA7-A10D-4D757342F4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26877AC-FA00-4EA7-A10D-4D757342F4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26877AC-FA00-4EA7-A10D-4D757342F4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3800C47B-C440-4AB8-9C68-B8CCB52C77E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3800C47B-C440-4AB8-9C68-B8CCB52C77E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3800C47B-C440-4AB8-9C68-B8CCB52C77E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3800C47B-C440-4AB8-9C68-B8CCB52C77E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AAD7844-E6DD-4F34-930A-43BA4ED14D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AAD7844-E6DD-4F34-930A-43BA4ED14D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AAD7844-E6DD-4F34-930A-43BA4ED14D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AAD7844-E6DD-4F34-930A-43BA4ED14D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EB23B3B-B166-4990-B9CB-B6590BB2218B}
+	EndGlobalSection
+EndGlobal
