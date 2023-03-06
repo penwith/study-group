@@ -10,7 +10,10 @@
   <ItemGroup>
     <ProjectReference Include="..\Initial\Remote.csproj" />
     <ProjectReference Include="..\LambdaRemote\LambdaRemote.csproj" />
+    <ProjectReference Include="..\Macro\Macro.csproj" />
+    <ProjectReference Include="..\Queue\Queue.csproj" />
     <ProjectReference Include="..\RemoteSlots\RemoteSlots.csproj" />
+    <ProjectReference Include="..\UndoState\UndoState.csproj" />
     <ProjectReference Include="..\Undo\Undo.csproj" />
   </ItemGroup>
 

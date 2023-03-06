@@ -4,7 +4,7 @@ using Undo.Receivers;
 
 namespace Client
 {
-    public class UndoDemo
+    public static class UndoDemo
     {
         public static void Run()
         {

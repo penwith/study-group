@@ -9,9 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remote", "Initial\Remote.cs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteSlots", "RemoteSlots\RemoteSlots.csproj", "{B41B50CA-CAFA-4B04-BBEE-4CFA318CCA82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaRemote", "LambdaRemote\LambdaRemote.csproj", "{99618F0E-395C-4F46-9768-62427EF41594}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaRemote", "LambdaRemote\LambdaRemote.csproj", "{99618F0E-395C-4F46-9768-62427EF41594}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Undo", "Undo\Undo.csproj", "{269ECEB6-D714-4E0E-9AEE-3A2AFEE558BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undo", "Undo\Undo.csproj", "{269ECEB6-D714-4E0E-9AEE-3A2AFEE558BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndoState", "UndoState\UndoState.csproj", "{10E5A350-45B5-4413-9A36-D586F7A75B3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macro", "Macro\Macro.csproj", "{8287DCC0-27CA-4587-8E52-587FD36CD2C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj", "{E6FD015E-EBCB-4E90-97A0-F43701DCE0E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{269ECEB6-D714-4E0E-9AEE-3A2AFEE558BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{269ECEB6-D714-4E0E-9AEE-3A2AFEE558BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{269ECEB6-D714-4E0E-9AEE-3A2AFEE558BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E5A350-45B5-4413-9A36-D586F7A75B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E5A350-45B5-4413-9A36-D586F7A75B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E5A350-45B5-4413-9A36-D586F7A75B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E5A350-45B5-4413-9A36-D586F7A75B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8287DCC0-27CA-4587-8E52-587FD36CD2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8287DCC0-27CA-4587-8E52-587FD36CD2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8287DCC0-27CA-4587-8E52-587FD36CD2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8287DCC0-27CA-4587-8E52-587FD36CD2C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6FD015E-EBCB-4E90-97A0-F43701DCE0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6FD015E-EBCB-4E90-97A0-F43701DCE0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6FD015E-EBCB-4E90-97A0-F43701DCE0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6FD015E-EBCB-4E90-97A0-F43701DCE0E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
