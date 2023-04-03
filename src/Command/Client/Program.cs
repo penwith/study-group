@@ -6,10 +6,10 @@
 
 //LambdaRemoteDemo.Run();
 
-UndoDemo.Run();
+//UndoDemo.Run();
 
 //UndoStateDemo.Run();
 
 //MacroDemo.Run();
 
-//await new QueueDemo().Run();
+await new QueueDemo().Run();

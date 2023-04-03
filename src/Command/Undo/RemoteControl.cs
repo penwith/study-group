@@ -72,6 +72,8 @@ namespace Undo
                 sb.AppendLine($"[Slot {i}]  {onCommands[i].PadRight(maxLength)}{offCommands[i].PadRight(maxLength)}");
             }
 
+            sb.AppendLine($"[Undo]    {_undoCommand.GetType().Name}");
+
             return sb.ToString();
         }
     }

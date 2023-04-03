@@ -27,11 +27,13 @@ namespace Client
 
             Console.WriteLine(remote);
 
+            Console.WriteLine("Undo...");
             remote.UndoButtonWasPushed();
             remote.OnButtonWasPushed(2);
 
             Console.WriteLine(remote);
 
+            Console.WriteLine("Undo...");
             remote.UndoButtonWasPushed();
 
             Console.ReadKey();
