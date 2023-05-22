@@ -1,0 +1,7 @@
+
+- A new cloud-base File Share Service has been developed to serve files to our distributors
+- The FTP Server is built on a version of Windows that is no longer supported and needs to be retired
+- A new system is being planned that will replace the Client application, but this will not be delivered before the FTP Server must be retired
+- It is deemed impractical to modify the existing Client application
+
+You should create and implement an adapter that will convert the interface of the File Share Service to the interface expected by the Client
