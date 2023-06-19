@@ -1,6 +1,7 @@
 ﻿# Task 1 - Let's watch a film
 
 1. Turn on the popcorn popper
+1. Start the popcorn popper popping
 1. Close the blinds
 1. Dim the lights
 1. Put the screen down
@@ -40,9 +41,18 @@ Modify the client to use your facade instead of the low level objects.
 - Is the subsystem still accessible?
 - How can you adjust the volume while your film is playing?
 - Does the facade add any functionality or does it just pass through each request to the subsystem?
+  - A facade is free to add any logic it needs to 
+  - While our facade doe not implement any new behaviour, it does know that we must turn on a projector befor using it and 
+what order the components of the subsystem can be used in
 - Are we limited to a single facade for a subsystem?
 - What is the benefit of the facade, other than providing a simpler interface?
+  - The pattern allows you to decouple your clients implementation from any one subsystem
+  - If you upgrade your subsystem, the new components may have different interfaces
+  - With a facade you will not have to change your client code (which may implement many other features that you do not was to risk breaking)
 - What is the difference between the Adapter Pattern and the Facade Pattern?
+  - The difference is in their *intent*
+  - The intent of the Adapter Pattern is to alter an interface so that it matches one a client is expecting
+  - The intent of the Facade Pattern is to provide a simplified interface to a subsystem
 
 ### Takeaways
 
