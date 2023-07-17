@@ -1,15 +1,15 @@
-﻿namespace Condiments.Drinks
+﻿namespace Decorators.Drinks
 {
     public class Decaf : Beverage
     {
         public Decaf()
         {
-            _description = "Decaffeinated Coffee";
+            _description = "decaffeinated coffee";
         }
 
         public override decimal Cost()
         {
-            return 2.50M + base.Cost();
+            return 2.50M;
         }
     }
 }

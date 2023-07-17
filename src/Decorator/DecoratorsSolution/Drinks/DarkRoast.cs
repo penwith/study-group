@@ -1,4 +1,4 @@
-﻿namespace Condiments.Drinks
+﻿namespace Decorators.Drinks
 {
     public class DarkRoast : Beverage
     {
@@ -9,7 +9,7 @@
 
         public override decimal Cost()
         {
-            return 2.70M + base.Cost();
+            return 2.70M;
         }
     }
 }

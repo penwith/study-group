@@ -11,10 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Condiments", "Condiments\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorators", "Decorators\Decorators.csproj", "{CF1B24A0-2E4A-48EA-9161-0B882D2938E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondimentSolution", "CodimentSolution\CondimentSolution.csproj", "{2BCC8730-87B1-4EFA-9279-177E7B899C2C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorsSolution", "DecoratorsSolution\DecoratorsSolution.csproj", "{133070B6-1DCE-4D73-BBCA-F3CC5F3DA1EE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,14 +33,6 @@ Global
 		{CF1B24A0-2E4A-48EA-9161-0B882D2938E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF1B24A0-2E4A-48EA-9161-0B882D2938E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF1B24A0-2E4A-48EA-9161-0B882D2938E9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2BCC8730-87B1-4EFA-9279-177E7B899C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2BCC8730-87B1-4EFA-9279-177E7B899C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2BCC8730-87B1-4EFA-9279-177E7B899C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2BCC8730-87B1-4EFA-9279-177E7B899C2C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{133070B6-1DCE-4D73-BBCA-F3CC5F3DA1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{133070B6-1DCE-4D73-BBCA-F3CC5F3DA1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{133070B6-1DCE-4D73-BBCA-F3CC5F3DA1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{133070B6-1DCE-4D73-BBCA-F3CC5F3DA1EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

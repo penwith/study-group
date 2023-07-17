@@ -4,7 +4,7 @@
     {
         public Decaf()
         {
-            _description = "Decaffeinated Coffee";
+            _description = "decaffeinated coffee";
         }
 
         public override decimal Cost()
