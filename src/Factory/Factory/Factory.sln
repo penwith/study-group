@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplePizzaStore", "SimplePizzaStore\SimplePizzaStore.csproj", "{02C5F9F2-8A88-46E2-9442-8004916F0186}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{5ADDDA07-1E9A-44F1-99C4-2277708C3654}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{5ADDDA07-1E9A-44F1-99C4-2277708C3654}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreStores", "MoreStores\MoreStores.csproj", "{350F6187-1ED5-404E-8951-13B56056D71B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoreStores", "MoreStores\MoreStores.csproj", "{350F6187-1ED5-404E-8951-13B56056D71B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzas", "Pizza\Pizzas.csproj", "{538A7EA2-D741-4ACA-AA1F-01AEAB72EBEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzas", "Pizzas\Pizzas.csproj", "{269EE5DB-BDD5-4D7B-B875-1C3DF8A99A79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{350F6187-1ED5-404E-8951-13B56056D71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{350F6187-1ED5-404E-8951-13B56056D71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{350F6187-1ED5-404E-8951-13B56056D71B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{538A7EA2-D741-4ACA-AA1F-01AEAB72EBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{538A7EA2-D741-4ACA-AA1F-01AEAB72EBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{538A7EA2-D741-4ACA-AA1F-01AEAB72EBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{538A7EA2-D741-4ACA-AA1F-01AEAB72EBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{269EE5DB-BDD5-4D7B-B875-1C3DF8A99A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{269EE5DB-BDD5-4D7B-B875-1C3DF8A99A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{269EE5DB-BDD5-4D7B-B875-1C3DF8A99A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{269EE5DB-BDD5-4D7B-B875-1C3DF8A99A79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
