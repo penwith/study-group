@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Event\Event.csproj" />
     <ProjectReference Include="..\Initial\Initial.csproj" />
+    <ProjectReference Include="..\Observe\Observe.csproj" />
   </ItemGroup>
 
 </Project>

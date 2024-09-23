@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Observer\Client.c
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Initial", "Initial\Initial.csproj", "{16298F86-3D30-4994-940B-816578A6C49D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observe", "Observe\Observe.csproj", "{76A7EEF0-F89E-46D2-B4CC-03AFEC71BA4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event", "Event\Event.csproj", "{2CCAD29B-9AFB-4629-B6C6-288C6EB25DE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{16298F86-3D30-4994-940B-816578A6C49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16298F86-3D30-4994-940B-816578A6C49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16298F86-3D30-4994-940B-816578A6C49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76A7EEF0-F89E-46D2-B4CC-03AFEC71BA4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A7EEF0-F89E-46D2-B4CC-03AFEC71BA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A7EEF0-F89E-46D2-B4CC-03AFEC71BA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A7EEF0-F89E-46D2-B4CC-03AFEC71BA4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CCAD29B-9AFB-4629-B6C6-288C6EB25DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CCAD29B-9AFB-4629-B6C6-288C6EB25DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CCAD29B-9AFB-4629-B6C6-288C6EB25DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CCAD29B-9AFB-4629-B6C6-288C6EB25DE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

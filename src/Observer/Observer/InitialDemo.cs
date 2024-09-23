@@ -6,7 +6,7 @@ namespace Client
     {
         public static void Run()
         {
-            var stock = new Initial.Microsoft(435.27);
+            var stock = new Msft(435.27);
 
             var kevin = new Investor { Name = "Kevin" };
             var sheila = new Investor { Name = "Sheila" };

@@ -27,5 +27,5 @@
         }
     }
 
-    public class Microsoft(double price) : Stock("MSFT", price) { }
+    public class Msft(double price) : Stock("MSFT", price) { }
 }
